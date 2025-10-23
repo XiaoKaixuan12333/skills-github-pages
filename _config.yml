@@ -3,7 +3,6 @@ description: "this is for RNA004 pipline expreience"
 baseurl: "/skills-github-pages" 
 url: "https://xiaokaixuan12333.github.io" 
 
-# Jekyll 配置
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
@@ -18,4 +17,5 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+
 
