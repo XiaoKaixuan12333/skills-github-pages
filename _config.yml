@@ -2,11 +2,10 @@ title: "rna_mod"
 description: "this is for RNA004 pipline expreience"
 baseurl: "/skills-github-pages" 
 url: "https://xiaokaixuan12333.github.io" 
-
-theme: jekyll-theme-minimal
+  
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # 允许的插件
 whitelist:
@@ -17,5 +16,6 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+
 
 
